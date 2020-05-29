@@ -39,7 +39,7 @@ if ($this->session->flashdata('sukses')) {
                         <?php $no = 1;
                         foreach ($user as $user) { ?>
                             <tr>
-                                <td><?php echo $no ?></td>
+                                <td><?php echo $no++ ?></td>
                                 <td><?php echo $user->nama ?></td>
                                 <td><?php echo $user->email ?></td>
                                 <td><?php echo $user->username ?></td>
@@ -55,15 +55,6 @@ if ($this->session->flashdata('sukses')) {
                             </tr>
                         <?php } ?>
                     </tbody>
-                    <tfoot>
-                        <tr>
-                            <th>Rendering engine</th>
-                            <th>Browser</th>
-                            <th>Platform(s)</th>
-                            <th>Engine version</th>
-                            <th>CSS grade</th>
-                        </tr>
-                    </tfoot>
                 </table>
             </div>
             <!-- /.card-body -->

@@ -74,7 +74,7 @@ class User extends CI_Controller
                 'nama'      => $i->post('nama'),
                 'email'     => $i->post('email'),
                 'username'  => $i->post('username'),
-                'password'  => $i->post('password'),
+                'password'  => SHA1($i->post('password')),
                 'akses_level' => $i->post('akses_level')
             );
             $this->user_model->tambah($data);
@@ -131,11 +131,11 @@ class User extends CI_Controller
                 'nama'      => $i->post('nama'),
                 'email'     => $i->post('email'),
                 'username'  => $i->post('username'),
-                'password'  => $i->post('password'),
+                'password'  => SHA1($i->post('password')),
                 'akses_level' => $i->post('akses_level')
             );
-            $this->user_model->tambah($data);
-            $this->session->set_flashdata('sukses', 'data telah ditambah');
+            $this->user_model->edit($data);
+            $this->session->set_flashdata('sukses', 'data telah diedit');
             redirect(base_url('admin/user'), 'refresh');
         }
         // end masuk database
