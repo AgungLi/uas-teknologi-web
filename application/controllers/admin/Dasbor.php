@@ -13,8 +13,15 @@ class Dasbor extends CI_Controller
     //halaman dasbor
     public function index()
     {
+        $readAPI = file_get_contents('https://api.kawalcorona.com/indonesia');
+        $nasional = json_decode($readAPI, true);
+        $provinsi = json_decode(file_get_contents("https://api.kawalcorona.com/indonesia/provinsi/"), true);
+
         $data = array(
-            'title' => 'Halaman Admin',
+            'title' => 'Dashboard data Covid19',
+            'judul' => 'Kasus Covid 19 di Indonesia',
+            'nasional' => $nasional,
+            'provinsi' => $provinsi,
             'isi'   => 'admin/dasbor/list'
         );
         $this->load->view('admin/layout/wrapper', $data, FALSE);
