@@ -81,7 +81,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url('admin/user/tambah') ?>" class="nav-link">
+                            <a href="<?php echo base_url('Aboutus/deden') ?>" class="nav-link">
                                 <i class="fa fa-address-card"></i>
                                 <p>Deden</p>
                             </a>
