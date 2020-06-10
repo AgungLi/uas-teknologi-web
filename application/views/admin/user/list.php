@@ -1,7 +1,8 @@
 <!-- Content Header (Page header) -->
 
 <p>
-    <a href="<?php echo base_url('admin/user/tambah') ?>" class="btn btn-success btn-sm">
+
+    <a href="<?php echo base_url('admin/user/tambah') ?>" class="btn btn-block btn-success">
         <i class="fa fa-plus"> Tambah User</i>
     </a>
 </p>
@@ -20,7 +21,7 @@ if ($this->session->flashdata('sukses')) {
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">DataTable with default features</h3>
+                <h3 class="card-title">Data User</h3>
             </div>
             <!-- /.card-header -->
             <div class="card-body">

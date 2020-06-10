@@ -17,6 +17,7 @@ class User extends CI_Controller
         $user = $this->user_model->listing();
         $data = array(
             'title' => 'Data User',
+            'judul' => 'Kelola Data User',
             'user'  => $user,
             'isi'   => 'admin/user/list'
         );
@@ -66,6 +67,7 @@ class User extends CI_Controller
             // end validasi
             $data = array(
                 'title' => 'Tambah User',
+                'judul' => 'Form Tambah Data User',
                 'isi'   => 'admin/user/tambah'
             );
             $this->load->view('admin/layout/wrapper', $data, FALSE);
@@ -121,6 +123,7 @@ class User extends CI_Controller
             // end validasi
             $data = array(
                 'title' => 'Edit User',
+                'judul' => 'Form Ubah Data User',
                 'user'  => $user,
                 'isi'   => 'admin/user/edit'
             );

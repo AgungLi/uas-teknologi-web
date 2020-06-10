@@ -25,7 +25,7 @@
                     <a href="<?php echo base_url('admin/dasbor') ?>" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Dashboard
+                            Dashboard Covid 19
                         </p>
                     </a>
                 </li>
@@ -34,7 +34,7 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-lock"></i>
                         <p>
-                            USER
+                            Data User
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -42,7 +42,7 @@
                         <li class="nav-item">
                             <a href="<?php echo base_url('admin/user') ?>" class="nav-link">
                                 <i class="fa fa-table"></i>
-                                <p>Data User</p>
+                                <p>Tampil Data User</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -53,6 +53,56 @@
                         </li>
                     </ul>
                 </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-user"></i>
+                        <p>
+                            Tentang Kami
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="<?php echo base_url('admin/user') ?>" class="nav-link">
+                                <i class="fa fa-address-card"></i>
+                                <p>Tasya</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url('admin/user/tambah') ?>" class="nav-link">
+                                <i class="fa fa-address-card"></i>
+                                <p>Hani</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url('admin/user/tambah') ?>" class="nav-link">
+                                <i class="fa fa-address-card"></i>
+                                <p>Senas</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url('admin/user/tambah') ?>" class="nav-link">
+                                <i class="fa fa-address-card"></i>
+                                <p>Deden</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url('admin/user/tambah') ?>" class="nav-link">
+                                <i class="fa fa-address-card"></i>
+                                <p>Agung</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="<?php echo base_url('login/logout') ?>" class="nav-link">
+                        <i class="nav-icon fa fa-times-circle"></i>
+                        <p>
+                            Logout
+                        </p>
+                    </a>
+                </li>
+
 
             </ul>
         </nav>
