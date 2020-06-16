@@ -90,7 +90,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url('admin/user/tambah') ?>" class="nav-link">
+                            <a href="<?php echo base_url('Aboutus/agung') ?>" class="nav-link">
                                 <i class="fa fa-address-card"></i>
                                 <p>Agung</p>
                             </a>
@@ -118,13 +118,7 @@
 <div class="content-wrapper">
 
     <section class="content-header">
-        <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1><?php echo $judul ?></h1>
-                </div>
-            </div>
-        </div><!-- /.container-fluid -->
+
     </section>
     <section class="content">
         <div class="container-fluid">
