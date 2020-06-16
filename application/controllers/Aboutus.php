@@ -13,7 +13,7 @@ class Aboutus extends CI_Controller
 	public function agung()
 	{
 		$data = array(
-			'title' => 'Tentang Agung',
+			'title' => 'Agung Laksmana Ismail',
 			'judul' => 'Tentang Agung',
 			'isi'   => 'aboutus/aboutagung'
 		);
