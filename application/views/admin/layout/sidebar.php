@@ -66,19 +66,19 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="<?php echo base_url('admin/user') ?>" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <i class="fa fa-address-card"></i>
                                 <p>Tasya</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url('admin/user/tambah') ?>" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <i class="fa fa-address-card"></i>
                                 <p>Hani</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo base_url('admin/user/tambah') ?>" class="nav-link">
+                            <a href="#" class="nav-link">
                                 <i class="fa fa-address-card"></i>
                                 <p>Senas</p>
                             </a>
@@ -86,13 +86,13 @@
                         <li class="nav-item">
                             <a href="<?php echo base_url('Aboutus/deden') ?>" class="nav-link">
                                 <i class="fa fa-address-card"></i>
-                                <p>Deden</p>
+                                <p>Deden - 3411171039</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?php echo base_url('Aboutus/agung') ?>" class="nav-link">
                                 <i class="fa fa-address-card"></i>
-                                <p>Agung</p>
+                                <p>Agung - 3411171041</p>
                             </a>
                         </li>
                     </ul>
