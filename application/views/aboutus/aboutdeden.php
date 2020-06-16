@@ -17,6 +17,7 @@
 			<ul style="padding-top:20px;" id="menu-list">
 				<li><a href="#aboutme">About Me</a></li>
 				<li><a href="#education">Education</a></li>
+				<li><a href="http://localhost/uasteknologiweb/admin/dasbor">Back</a></li>
 
 			</ul>
 		</nav>
