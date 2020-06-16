@@ -20,11 +20,11 @@
 				 </nav>
 				 <div class="sosmed">
 					 <div class="isi-sosmed">
-						 <a href="https://github.com/Aika1603/" target="_blank"><img src="./assets/images/github.png"> </a>
-						 <a href="https://api.whatsapp.com/send?phone=6289648338115&text=Assalamualaikum" target="_blank"><img src="./assets/images/wa2.png"></a>
-						 <a href="https://www.instagram.com/saepulasep_/" target="_blank"><img src="./assets/images/ig.png"> </a>
-						 <a href="mailto:asep.saepul205@gmail.com" target="_blank"><img src="./assets/images/gmail.png"></a>
-						 <a href="https://www.facebook.com/asep.saepulpahmiy" target="_blank"><img style="width:38px;" src="./assets/images/fb.png"></a>
+						 <a href="https://github.com/dedenmartya/" target="_blank"><img src="<?php echo base_url() ?>./assets/images/github.png"> </a>
+						 <a href="https://api.whatsapp.com/send?phone=6287722305299&text=Assalamualaikum" target="_blank"><img src="<?php echo base_url() ?>./assets/images/wa2.png"></a>
+						 <a href="https://www.instagram.com/3rdinjection/" target="_blank"><img src="<?php echo base_url() ?>./assets/images/ig.png"> </a>
+						 <a href="mailto:dedenmartya1@gmail.com" target="_blank"><img src="<?php echo base_url() ?>./assets/images/gmail.png"></a>
+						 <a href="https://www.facebook.com/dedenmartya" target="_blank"><img style="width:38px;" src="<?php echo base_url() ?>./assets/images/fb.png"></a>
 					 </div>
 				 </div>
 
@@ -85,7 +85,7 @@
 					<h1 class="title-content">Education</h1>
 					<div class="area-card">
 						<div class="card">
-							<div class="card-header" style="background:url('assets/images/sd1.jpg') ;background-size : cover;">
+							<div class="card-header" style="background:url('<?php echo base_url() ?>assets/images/sd1.jpg') ;background-size : cover;">
 							</div>
 							<div class="card-body">
 								<p style="color:#fff">
@@ -97,7 +97,7 @@
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header" style="background:url('assets/images/smp1.jpg') ;background-size : cover;">
+							<div class="card-header" style="background:url('<?php echo base_url() ?>assets/images/smp1.jpg') ;background-size : cover;">
 							</div>
 							<div class="card-body">
 								<p style="color:#fff">
@@ -109,7 +109,7 @@
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header" style="background:url('assets/images/sman2.jpg') ;background-size : cover;">
+							<div class="card-header" style="background:url('<?php echo base_url() ?>assets/images/sman2.jpg') ;background-size : cover;">
 							</div>
 							<div class="card-body">
 								<p style="color:#fff">
@@ -121,7 +121,7 @@
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header" style="background:url('assets/images/unjani.jpg') ;background-size : cover;">
+							<div class="card-header" style="background:url('<?php echo base_url() ?>assets/images/unjani.jpg') ;background-size : cover;">
 							</div>
 							<div class="card-body">
 								<p style="color:#fff">
