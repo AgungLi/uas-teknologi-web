@@ -3,6 +3,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Aboutus extends CI_Controller
 {
+	public function tasya()
+	{
+		$this->load->view('aboutus/abouttasya.php');
+	}
 
 	public function nihlah()
 	{

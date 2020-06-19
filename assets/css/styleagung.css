@@ -1,9 +1,11 @@
+.jumbotron {
+	background-image: url(bgagung.jpg);
+}
+
 .jumbotron img {
 	width: 200px;
 	border: 5px solid #666;
 }
-
-
 
 hr {
 	width: 250px;
@@ -11,5 +13,5 @@ hr {
 }
 
 .portfolio {
-	background-color: #eee;
+	background-color: #fff;
 }

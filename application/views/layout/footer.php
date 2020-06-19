@@ -33,6 +33,7 @@
 <script src="<?php echo base_url() ?>assets/template/dist/js/demo.js"></script>
 <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
 
+
 <!-- page script -->
 <script type="text/javascript">
     var map = L.map("map").setView([-3.824181, 117.8191513], 5);
