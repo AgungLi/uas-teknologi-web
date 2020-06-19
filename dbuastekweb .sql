@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 07, 2020 at 04:07 PM
+-- Generation Time: Jun 19, 2020 at 03:59 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -42,9 +42,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id_user`, `nama`, `email`, `username`, `password`, `akses_level`, `tanggal_update`) VALUES
-(1, 'agungli', 'agungli@gmail.com', 'agungli4', '9cf784678d5d0dad2eaf48f027b2609ec0a79f59', 'User', '2020-05-29 12:32:18'),
-(3, 'tasya123', 'tasya@gmail.com', 'tasya1234', 'bf1bcc4da5a1df15be98f852cd2738c74c658937', 'Admin', '2020-05-29 12:32:01'),
-(4, 'deden martia', 'deden@gmail.com', 'dedenmartia', 'f03bcbfe709d7c7932a542980fcf3fa73d8ae5cd', 'Admin', '2020-05-29 12:33:08');
+(4, 'deden', 'deden@gmail.com', '3411171039', 'b07451a2a1d6e1321f45e1c1ec5b77269a2f1481', 'Admin', '2020-06-19 13:57:28'),
+(5, 'Agung', 'agung@gmail.com', '3411171041', '7826066d046c7049c87c3748c6a425e23937820a', 'Admin', '2020-06-19 13:55:22'),
+(6, 'admin', 'admin@gmail.com', 'admin', 'd033e22ae348aeb5660fc2140aec35850c4da997', 'Admin', '2020-06-19 13:41:45'),
+(7, 'tasya', 'tasya@gmail.com', '3411171023', '42df749d89f854fcd0d36f9199226b577c7f34d8', 'Admin', '2020-06-19 13:48:39'),
+(8, 'nihlah', 'nihlah@gmail.com', '3411171005', 'd79fc21b4cd5e0ef311638793df223871842c1da', 'Admin', '2020-06-19 13:51:21'),
+(9, 'senas', 'senas@gmail.com', 'senas', 'dd508829bf007f24f0d1483a1386ccc3b9583c6b', 'Admin', '2020-06-19 13:53:32');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +68,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,10 +1,10 @@
 .jumbotron {
-	background-image: url(bgagung.jpg);
+	background-color: rgb(54, 54, 54);
 }
 
 .jumbotron img {
 	width: 200px;
-	border: 5px solid #666;
+	border: 5px solid rgb(54, 54, 54);
 }
 
 hr {

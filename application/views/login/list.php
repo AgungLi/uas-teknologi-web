@@ -51,6 +51,7 @@
                 // form open login
                 echo form_open(base_url('login'));
                 ?>
+                <h6 class="text-center">username : admin</h6>
                 <div class="input-group mb-3">
                     <input type="text" name="username" class="form-control" placeholder="Username">
                     <div class="input-group-append">
@@ -59,6 +60,7 @@
                         </div>
                     </div>
                 </div>
+                <h6 class="text-center">password : admin</h6>
                 <div class="input-group mb-3">
                     <input type="password" name="password" class="form-control" placeholder="Password">
                     <div class="input-group-append">
@@ -67,6 +69,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col-8">
                         <div class="icheck-primary">

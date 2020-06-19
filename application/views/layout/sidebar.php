@@ -26,7 +26,7 @@
 
                 <li class="nav-item has-treeview">
                     <a href="<?php echo base_url('peta') ?>" class="nav-link">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <i class="nav-icon fas fa-map-marker"></i>
                         <p>
                             Peta Penyebaran Covid 19
                         </p>

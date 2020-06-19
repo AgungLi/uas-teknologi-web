@@ -46,10 +46,10 @@ class User extends CI_Controller
         $valid->set_rules(
             'username',
             'Username',
-            'required|min_length[6]|max_length[32]|is_unique[users.username]',
+            'required|min_length[5]|max_length[32]|is_unique[users.username]',
             array(
                 'required' => '%s harus diisi',
-                'min_length' => '%s minimal 6 karakter',
+                'min_length' => '%s minimal 5 karakter',
                 'max_length' => '%s maksimal 32 karakter',
                 'is_unique'  => '%s sudah ada. buat username baru.'
             )
@@ -82,7 +82,7 @@ class User extends CI_Controller
                 'akses_level' => $i->post('akses_level')
             );
             $this->user_model->tambah($data);
-            $this->session->set_flashdata('sukses', 'data telah ditambah');
+            $this->session->set_flashdata('sukses', 'DATA TELAH DITAMBAH');
             redirect(base_url('user'), 'refresh');
         }
         // end masuk database
@@ -140,7 +140,7 @@ class User extends CI_Controller
                 'akses_level' => $i->post('akses_level')
             );
             $this->user_model->edit($data);
-            $this->session->set_flashdata('sukses', 'data telah diedit');
+            $this->session->set_flashdata('sukses', 'DATA TELAH DIEDIT');
             redirect(base_url('user'), 'refresh');
         }
         // end masuk database
@@ -151,7 +151,7 @@ class User extends CI_Controller
     {
         $data = array('id_user' => $id_user);
         $this->user_model->delete($data);
-        $this->session->set_flashdata('sukses', 'Data telah dihapus');
+        $this->session->set_flashdata('sukses', 'DATA TELAH DIHAPUS');
         redirect(base_url('user'), 'refresh');
     }
 }
