@@ -17,7 +17,7 @@
 			<ul style="padding-top:20px;" id="menu-list">
 				<li><a href="#aboutme">About Me</a></li>
 				<li><a href="#education">Education</a></li>
-				<li><a href="http://localhost/uasteknologiweb/admin/dasbor">Back</a></li>
+				<li><a href="http://localhost/uasteknologiweb/dasbor">Back</a></li>
 
 			</ul>
 		</nav>
@@ -138,7 +138,7 @@
 	</div>
 
 	<svg id="curve2" viewBox="0 0 1400 214.953" xml:space="preserve">
-		<path style="opacity:1;fill:;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
+		<path style="opacity:1;" d="M0,139.29C207.803,40.048,277.683-60.968,472.864,45.364
 					c195.181,106.331,346.987,163.042,481.928,77.975c134.939-85.065,337.348-34.515,437.348,41.225c100,75.743,7.861,6.627,7.861,6.627
 					v73.387H0V139.29z" />
 	</svg>

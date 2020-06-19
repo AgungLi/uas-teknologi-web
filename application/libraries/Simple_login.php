@@ -24,7 +24,7 @@ class Simple_login
             $this->CI->session->set_userdata('username', $username);
             $this->CI->session->set_userdata('akses_level', $akses_level);
             // redirect ke halaman admin yang diproteksi
-            redirect(base_url('admin/dasbor'), 'refresh');
+            redirect(base_url('dasbor'), 'refresh');
         } else {
             // kalau tidak ada (username password salah), maka login lagi
             $this->CI->session->set_flashdata('warning', 'Username atau password salah');
