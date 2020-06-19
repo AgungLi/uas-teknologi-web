@@ -78,7 +78,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?php echo base_url('Aboutus/senas') ?>" class="nav-link">
                                 <i class="fa fa-address-card"></i>
                                 <p>Senas - 3411171036</p>
                             </a>
